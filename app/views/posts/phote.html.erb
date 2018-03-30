@@ -11,10 +11,10 @@
     <title>Phote Gallery - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheets">
 
     <!-- Custom styles for this template -->
-    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="css/thumbnail-gallery.css" rel="stylesheets">
 
   </head>
 
@@ -65,7 +65,7 @@
         <div class="col-lg-3 col-md-4 col-xs-6">
 
 
-          <p><%= phote.title %>  <%= link_to '/→About', "phote/#{phote.id}"%></p>    
+          <p><%= phote.title %>  <%= link_to '/→About', "phote/#{phote.id}"%></p>
           <a href="<%= phote.syasin_url %>" class="d-block mb-4 h-100">
             <%= image_tag phote.syasin_url, class: "img-fluid img-thumbnail" %>
             <%= link_to 'Show', "phote/#{phote.id}" %>
@@ -150,9 +150,12 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> -->
 
+
+    <script src="js/jquery.min.js" type="text/javascripts"></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascripts"></script>
   </body>
 
 </html>
