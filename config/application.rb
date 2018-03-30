@@ -15,8 +15,6 @@ module MyApp
     config.time_zone = 'Tokyo' # タイムゾーンもついでに変更
     config.i18n.default_locale = :ja
 
-    config.assets.paths << "#{Rails}/app/assets/fonts"
-    config.assets.precompile += %w( .svg .eot .woff .ttf )
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
