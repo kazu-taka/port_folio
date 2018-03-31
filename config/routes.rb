@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
 
-  resources :syasins
-  resources :onseis
-  resources :dougas
 
-  devise_for :users
   root 'posts#home'
+  devise_for :users
+
     get 'tests/phote'
     get "posts/phote_1" => "posts#phote_1"
     get "posts/phote" => "posts#phote"
