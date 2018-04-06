@@ -37,7 +37,7 @@ gem 'jquery-rails'
 gem 'carrierwave', '~> 1.1'
 gem 'frontend-generators'
 gem 'ransack'
-gem 'test-unit'
+
 # ransackの下に追記します。
 gem 'kaminari'
 
